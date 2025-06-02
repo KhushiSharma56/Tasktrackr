@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.group:hover .group-hover\:inline {
+  display: inline;
+}
+/* Force day headers (Sun, Mon, etc.) to remain visible in dark mode */
+.fc .fc-col-header-cell-cushion {
+  @apply text-gray-800 dark:text-gray-800; /* or any light color you want */
+}
