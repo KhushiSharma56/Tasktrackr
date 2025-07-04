@@ -17,7 +17,7 @@ function App() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    <BrowserRouter basename='Tasktrackr'>
+    <BrowserRouter basename='/Tasktrackr'>
       <div className={`min-h-screen ${isDarkMode ? 'dark' : ''}`}>
         <Navbar toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} toggleDarkMode={toggleDarkMode} />
         <div className="flex">
