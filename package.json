@@ -2,7 +2,7 @@
   "name": "Tasktrackr",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://khushisharma56.github.io/Tasktrackr",
+  "homepage": "https://khushisharma56.github.io/Tasktrackr/",
   "scripts": {
     "start": "vite",
     "dev": "vite",
